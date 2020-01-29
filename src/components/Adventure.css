@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column nowrap;
+    align-content: space-a;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: fade-in .8s ease-in .3s forwards;
+}
+
+@keyframes fade-in{
+    0% {
+        opacity: 0;
+    } 
+    100% {
+        opacity: 1;
+    }
+
+    
+}
+
+
+.input {
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+    box-shadow: darkslategrey 0px 0px 8px;
+    opacity: 0;
+    width: 100%;
+    animation: fade-in 1.2s ease-in 1.8s forwards;
+}
