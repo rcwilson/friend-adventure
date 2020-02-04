@@ -1,0 +1,28 @@
+div.warning::before {
+    position: absolute;
+    content: "I'm already in this story";
+    background-color: yellow;
+    top: -1.3rem;
+    
+}
+
+div {
+    position: relative;
+}
+
+.continue {
+    display: none;
+    position: absolute;
+    width: 6rem;
+    bottom: -.5rem;
+    left: 50%;
+    right: 50%;
+}
+
+.continue.show {
+    display: block;
+}
+
+form {
+    position: relative;
+}

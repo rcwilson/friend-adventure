@@ -1,6 +1,7 @@
 import React from 'react'
 import Intro from './Intro'
 import Beginning from './Beginning'
+import Friends from './Friends'
 
 function contentMap({userName, pathKey, callBack}) {
     let contentPath = ""
@@ -12,7 +13,11 @@ function contentMap({userName, pathKey, callBack}) {
         case "1":
                 contentPath = <Beginning name={userName} />
                 break;
+        case "2":
+                contentPath = <Friends />
+                break;
         default: contentPath = <div>Something Went Wrong</div>
+            
 
     }
 
