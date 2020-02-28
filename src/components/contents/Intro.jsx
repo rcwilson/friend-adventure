@@ -12,7 +12,6 @@ export default function Intro(props) {
     return (
     <>
     <h2 className="title">{title}</h2>
-    
     <form onSubmit={props.callBack}>
         <input required id="inputname" ref={nameRef} onChange={() => setTitle(`Hello, ${nameRef.current.value}`)}>
         </input>
