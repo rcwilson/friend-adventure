@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/friend-adventure/static/css/main.63e53389.chunk.css",
+    "main.js": "/friend-adventure/static/js/main.fb39f510.chunk.js",
+    "main.js.map": "/friend-adventure/static/js/main.fb39f510.chunk.js.map",
+    "runtime-main.js": "/friend-adventure/static/js/runtime-main.f77230d8.js",
+    "runtime-main.js.map": "/friend-adventure/static/js/runtime-main.f77230d8.js.map",
+    "static/js/2.e7eb1023.chunk.js": "/friend-adventure/static/js/2.e7eb1023.chunk.js",
+    "static/js/2.e7eb1023.chunk.js.map": "/friend-adventure/static/js/2.e7eb1023.chunk.js.map",
+    "index.html": "/friend-adventure/index.html",
+    "precache-manifest.c6072ba982594c10f6b1c882ea290405.js": "/friend-adventure/precache-manifest.c6072ba982594c10f6b1c882ea290405.js",
+    "service-worker.js": "/friend-adventure/service-worker.js",
+    "static/css/main.63e53389.chunk.css.map": "/friend-adventure/static/css/main.63e53389.chunk.css.map",
+    "static/js/2.e7eb1023.chunk.js.LICENSE": "/friend-adventure/static/js/2.e7eb1023.chunk.js.LICENSE",
+    "static/media/Adventure.css": "/friend-adventure/static/media/paper_fibers.d1121140.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f77230d8.js",
+    "static/js/2.e7eb1023.chunk.js",
+    "static/css/main.63e53389.chunk.css",
+    "static/js/main.fb39f510.chunk.js"
+  ]
+}
