@@ -3,8 +3,8 @@ import './Adventure.css'
 import contentMap from './contents/contentMap'
 import User from './User'
 
-// localStorage.clear()
-
+localStorage.clear()
+// 00-03 Setup, 1A-1B, etc
 let USER_PATH = localStorage.getItem('userPath') || "00"
 
 export default function Adventure() {

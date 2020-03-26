@@ -15,10 +15,15 @@ export default function Story1A(props) {
                 towards destination caffeination.
             </p>
             <p>
-                On your walk you discuss some easy topics like Climate Change, the current political climate, and political climax.
-                Just as you are about to clarify what that last topic was, three bouncey squirrels dash against your path, scurrying
-                down a crossing alley. 
+                On your walk, you discuss some easy topics like Climate Change, the current political climate, and political climax.
+                Just as you are about to clarify what that last topic was, three different colored squirrels dash against your path, scurrying
+                down a crossing alley. Thoughts on the absurdity of one black, one grey, and one white squirrel together is put on hold due the Richard-shaped
+                figure now darting in their direction.
             </p>
+            <p>
+                "What are you doing, Richard?" Fortunely your voice carries
+            </p>
+
         </div>
             <ChoiceContainer content1='Nada' content2='Yar' value1='2A' value2='2B' userSelect={props.userSelect} choiceWindowClick={props.choiceWindowClick} />
         </>
