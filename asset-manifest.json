@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/friend-adventure/static/css/main.18e0157e.chunk.css",
-    "main.js": "/friend-adventure/static/js/main.bb543fc3.chunk.js",
-    "main.js.map": "/friend-adventure/static/js/main.bb543fc3.chunk.js.map",
+    "main.js": "/friend-adventure/static/js/main.722e0210.chunk.js",
+    "main.js.map": "/friend-adventure/static/js/main.722e0210.chunk.js.map",
     "runtime-main.js": "/friend-adventure/static/js/runtime-main.f77230d8.js",
     "runtime-main.js.map": "/friend-adventure/static/js/runtime-main.f77230d8.js.map",
     "static/js/2.e7eb1023.chunk.js": "/friend-adventure/static/js/2.e7eb1023.chunk.js",
     "static/js/2.e7eb1023.chunk.js.map": "/friend-adventure/static/js/2.e7eb1023.chunk.js.map",
     "index.html": "/friend-adventure/index.html",
-    "precache-manifest.6c66059a992630ef7ee5d16f72619b08.js": "/friend-adventure/precache-manifest.6c66059a992630ef7ee5d16f72619b08.js",
+    "precache-manifest.c695b292d949e331df4b576082f2c276.js": "/friend-adventure/precache-manifest.c695b292d949e331df4b576082f2c276.js",
     "service-worker.js": "/friend-adventure/service-worker.js",
     "static/css/main.18e0157e.chunk.css.map": "/friend-adventure/static/css/main.18e0157e.chunk.css.map",
     "static/js/2.e7eb1023.chunk.js.LICENSE": "/friend-adventure/static/js/2.e7eb1023.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f77230d8.js",
     "static/js/2.e7eb1023.chunk.js",
     "static/css/main.18e0157e.chunk.css",
-    "static/js/main.bb543fc3.chunk.js"
+    "static/js/main.722e0210.chunk.js"
   ]
 }
