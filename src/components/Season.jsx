@@ -8,8 +8,9 @@ const Season = {
             The cityscape glows in its snow-coated perfection.
             </p>,
         spring: <p>
-            
-        </p>
+            The awakening life of Spring surrounds you with its cool breeze and warm songs. 
+            Trees are appearing full and the city grows with greenery.
+            </p>
     },
     
     description2 : {
@@ -17,13 +18,17 @@ const Season = {
             "Slight cabin fever from the snowy weekend. Decided to go on an adventure. No end-game." You think
             about the compound of icy fluff decorating your frosted windows at home.
             This makes you thirsty for some reason.
+        </p>,
+        spring: <p>
+            "Ive been making sure to go on plenty of walks lately. It's hard to ignore how amazing it's been outside,
+            other than the rain." 
         </p>
     },
     getDescription1: function() {
         const currentSeason = this.getSeason()
         switch(currentSeason) {
             case "Winter": return this.description1.winter
-
+            case "Spring": return this.description1.spring
             default: return <p>Nuthin</p>
         }
     },
@@ -31,6 +36,7 @@ const Season = {
         const currentSeason = this.getSeason()
         switch(currentSeason) {
             case "Winter": return this.description2.winter
+            case "Spring": return this.description2.spring
 
             default: return <p>Nuthing</p>
         }
