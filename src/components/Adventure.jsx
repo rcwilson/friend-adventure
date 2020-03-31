@@ -5,7 +5,7 @@ import User from './User'
 
 localStorage.clear()
 // 00-03 Setup, 1A-1B, etc
-let USER_PATH = localStorage.getItem('userPath') || "00"
+let USER_PATH = localStorage.getItem('userPath') || "1B"
 
 export default function Adventure() {
     
@@ -87,6 +87,7 @@ export default function Adventure() {
     function handleChoiceWindowClick (event) {
         event.target.parentNode.classList.toggle("show")
         event.target.parentNode.classList.toggle("hidden")
+        document.getSelection().removeAllRanges()
     }
 
 

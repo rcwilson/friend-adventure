@@ -1,6 +1,6 @@
 import React from 'react'
-import Season from '../Season'
-import  ChoiceContainer from '../ChoiceContainer'
+import Season from '../../Season'
+import  ChoiceContainer from '../../ChoiceContainer'
 
 export default function Story(props) {
 
@@ -38,7 +38,7 @@ export default function Story(props) {
             </p>
         </div>
 
-        <ChoiceContainer content1={`"Let's get coffee."`} content2={`Let's do brunch.`} value1='1A' value2='1B' userSelect={props.userSelect} choiceWindowClick={props.choiceWindowClick} />
+        <ChoiceContainer content1={`"Let's get coffee."`} content2={`"Let's do brunch."`} value1='1A' value2='1B' userSelect={props.userSelect} choiceWindowClick={props.choiceWindowClick} />
         
         </>
     )

@@ -1,5 +1,5 @@
 import React from 'react'
-import ChoiceContainer from '../ChoiceContainer'
+import ChoiceContainer from '../../ChoiceContainer'
 
 export default function Story1A(props) {
     

@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from './Button'
-// import arrow from '../contents/docs/images/up-arrow-icon.png'
 import arrow from './contents/docs/images/up-arrow-icon.png'
 
 export default function ChoiceContainer(props) {

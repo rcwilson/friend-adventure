@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap');
+html,body{
+  overflow-y: hidden;
 
+}
 body {
   margin: 0;
   font-family: 'Zilla Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 code {

@@ -2,17 +2,19 @@
 
 
 .wrapper {
-    
+    overflow: clip;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     flex-flow: column nowrap;
     align-content: space-a;
     margin: auto;
     text-align: center;
     width: 100%;
     height: 100%;
-    min-height: 550px;
-    
+    /* min-height: 450px; */
+    background-image: url('./contents/docs/images/textures/paper_fibers.png');
+    background-repeat: round;
+    background-color: rgb(209, 223, 199);
 }
 
 button {
@@ -51,6 +53,7 @@ button:hover, button:focus {
     animation: show-container 1s ease-out forwards;
     -moz-animation: show-container 1s ease-out forwards;
 }
+
 .choice-arrow {
     pointer-events: none;
     -webkit-user-select: none;
@@ -123,12 +126,12 @@ button:hover, button:focus {
     transition: opacity 1s;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content: start;
     width: 100%;
     background-image: url('./contents/docs/images/textures/paper_fibers.png');
     background-repeat: round;
     background-color: rgb(209, 223, 199);
-    height: 100%;
+    /* height: 100%; */
 }
 
 .game-load {
@@ -140,9 +143,10 @@ button:hover, button:focus {
 .game-story {
     opacity: 0;
     height: 70%;
-    margin: auto;
+    margin: 0 auto;
     padding: 1rem;
     padding-bottom: 3rem;
+    max-height: 400px;
     max-width: 700px;
     min-width: 300px;
     box-shadow: black 7px 7px 12px;

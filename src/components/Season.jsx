@@ -9,7 +9,8 @@ const Season = {
             </p>,
         spring: <p>
             The awakening life of Spring surrounds you with its cool breeze and warm songs. 
-            Trees are appearing full and the city grows with greenery.
+            Trees are appearing full and the city grows with greenery. You're also, like, wearing the perfect
+            Spring outfit.
             </p>
     },
     
@@ -20,8 +21,7 @@ const Season = {
             This makes you thirsty for some reason.
         </p>,
         spring: <p>
-            "Ive been making sure to go on plenty of walks lately. It's hard to ignore how amazing it's been outside,
-            other than the rain." 
+            "Ive been making sure to go on plenty of walks, lately. It's hard to ignore how amazing the weather's been--Ohio rains included."
         </p>
     },
     getDescription1: function() {

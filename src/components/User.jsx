@@ -12,7 +12,8 @@ const User = {
 
 
     getUserName: () => {
-        return localStorage.getItem('userName')
+        const userName = localStorage.getItem('userName')
+       return userName ? userName : "Amy"
     }
 
 
