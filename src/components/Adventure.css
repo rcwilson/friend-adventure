@@ -4,7 +4,7 @@
 .wrapper {
     overflow: clip;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     flex-flow: column nowrap;
     align-content: space-a;
     margin: auto;
@@ -17,6 +17,7 @@
     background-color: rgb(209, 223, 199);
 }
 
+
 button {
     font-family: 'Zilla Slab','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
@@ -27,6 +28,7 @@ button {
     border: 2px solid black;
     border-radius: 10px;
     animation: fade-in 1.2s forwards;
+    background-color: rgb(212, 212, 212);
 }
 
 button:hover, button:focus {
@@ -101,7 +103,8 @@ button:hover, button:focus {
 .choice-container.show > .button-container {
     display: flex;
     flex-flow: row wrap;
-    max-width: 600px;
+    width: 80%;
+    max-width: 1100px;
     margin: auto;
     transition: 1s;
 }
@@ -122,16 +125,16 @@ button:hover, button:focus {
 }
 
 .game-content {
-    
+    padding-top: 2rem;
     transition: opacity 1s;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: start;
+    justify-content: center;
     width: 100%;
     background-image: url('./contents/docs/images/textures/paper_fibers.png');
     background-repeat: round;
     background-color: rgb(209, 223, 199);
-    /* height: 100%; */
+    height: 100%;
 }
 
 .game-load {
@@ -141,24 +144,44 @@ button:hover, button:focus {
 }
 
 .game-story {
+    text-align: left;
     opacity: 0;
-    height: 70%;
-    margin: 0 auto;
+    height: 80%;
+    margin:  auto;
     padding: 1rem;
-    padding-bottom: 3rem;
-    max-height: 400px;
-    max-width: 700px;
-    min-width: 300px;
+    padding-bottom: 6rem;
+    max-height: 500px;
+    width: 95%;
+    max-width: 800px;
     box-shadow: black 7px 7px 12px;
     background-color: rgba(255, 248, 220, 0.26);
-    overflow-y: scroll;
+    overflow-y: auto;
+    animation: fade-in 1s forwards;
+}
+.game-story > p {
+    text-indent: 1rem;
+}
+.game-story > h2 {
+    text-align: center;
+}
+.choice-area-prompt {
+    display: flex;
+}
+.choice-area-dialogue {
     animation: fade-in 1s forwards;
 }
 
 .game-story::-webkit-scrollbar {
-    display: none;
-    width: 50px;
-    background: black;
+    display: auto;
+    width: 10px;
+    background-color: rgb(217, 215, 226);
+}
+.game-story::-webkit-scrollbar-thumb {
+    background: rgb(2, 0, 22);
+}
+.game-story >  * > button {
+    margin: 1;
+    justify-self: center;
 }
 
 

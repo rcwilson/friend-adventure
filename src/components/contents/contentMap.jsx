@@ -1,6 +1,6 @@
 import React from 'react'
 import Intro from './story-0/Intro'
-import Beginning from './story-0/Beginning'
+import Intro2 from './story-0/Intro2'
 import Friends from './story-0/Friends'
 import Story from './story-1/Story'
 import Story1A from './story-1/Story1A'
@@ -14,7 +14,7 @@ function contentMap({userName, pathKey, callBack, userSelect, choiceWindow}) {
                 contentPath = <Intro callBack={callBack}/>
                 break;
         case "01":
-                contentPath = <Beginning name={userName} />
+                contentPath = <Intro2 name={userName} />
                 break;
         case "02":
                 contentPath = <Friends />

@@ -8,8 +8,8 @@ export default function Story(props) {
     
     return (
         <>
-        <h2>Just a Stroll</h2>
         <div className="game-story">
+        <h2>Just a Stroll</h2>
             <p>
                 "Hey, {props.name}!"
             </p>
@@ -33,7 +33,7 @@ export default function Story(props) {
                 with decision-making.
             </p>
             <p>
-                "Umm..." Richard begins to struggle. "I was thinking... uhh.. maybe coffee? or Brunch somewhere?"
+                "Umm..." Richard begins to struggle. "I was thinking... uhh.. maybe coffee? Or Brunch somewhere?"
                 He doesn't appear to have any promise on deciding. Looks like this one is up to you:
             </p>
         </div>

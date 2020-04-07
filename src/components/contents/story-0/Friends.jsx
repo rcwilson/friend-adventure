@@ -1,4 +1,5 @@
 import React, {useRef, useEffect} from 'react'
+import User from '../../User'
 import './Friends.css'
 
 export default function Friends() {
@@ -19,8 +20,9 @@ export default function Friends() {
     
     function handleContinueButton(event) {
         event.preventDefault()
-        const friendArray = [ref1.current.value, ref2.current.value, ref3.current.value]
-        localStorage.setItem("userFriends", JSON.stringify(friendArray))
+        User.setFriend(1, ref1.current.value)
+        User.setFriend(2, ref2.current.value)
+        User.setFriend(3, ref3.current.value)
     }
     function handleInputCheck(event) {
         const x = event.target.value.toLowerCase()
@@ -56,13 +58,13 @@ export default function Friends() {
             
             <form>
             <div>
-                <input required ref={ref1} onChange={handleInputCheck}></input>
+                <input required ref={ref1} onChange={handleInputCheck} maxLength="12"></input>
             </div>
             <div>
-                <input required ref={ref2} onChange={handleInputCheck}></input>
+                <input required ref={ref2} onChange={handleInputCheck} maxLength="12"></input>
             </div>
             <div>
-                <input required ref={ref3} onChange={handleInputCheck}></input>
+                <input required ref={ref3} onChange={handleInputCheck} maxLength="12"></input>
             </div>
             <button type="button" value="03" className="choice-button continue">Continue</button>
             </form>

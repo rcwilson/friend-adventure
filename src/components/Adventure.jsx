@@ -3,22 +3,21 @@ import './Adventure.css'
 import contentMap from './contents/contentMap'
 import User from './User'
 
+// Start new Every Time
 localStorage.clear()
-// 00-03 Setup, 1A-1B, etc
-let USER_PATH = localStorage.getItem('userPath') || "1B"
 
 export default function Adventure() {
     
-    const [userName, setUserName] = useState(User.getUserName())
+    const [userName, setUserName] = useState(User.getName())
     useEffect(() => {
         function changeTitle() {
             document.title = userName ? `${userName}'s Adventure` : `Friend Adventure`
             }
-        function setNameToLocalStorage() {
-            localStorage.setItem('userName', userName)
+        function saveUserName() {
+            User.setName(userName)
             }
         changeTitle() 
-        setNameToLocalStorage()
+        saveUserName()
     }, [userName])
     
     const [currentContent, setCurrentContent] = useState('')
@@ -45,16 +44,13 @@ export default function Adventure() {
         }
     }, [currentContent])
 
-    const [contentKey, setContentKey] = useState(USER_PATH)
+    const [contentKey, setContentKey] = useState(User.getPath)
     useEffect(() => {
         function handleStartingPath() {
             setCurrentContent(contentMap({pathKey: contentKey, userName: userName, callBack: handleUserNameSubmit, userSelect: handleUserSelect, choiceWindow: handleChoiceWindowClick}))    
         }  
-        function setPathToLocalStorage() {
-            localStorage.setItem('userPath', contentKey)
-        } 
         handleStartingPath()
-        setPathToLocalStorage()
+        User.setPath(contentKey)
     }, [contentKey, userName])
     
     return (

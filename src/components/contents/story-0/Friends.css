@@ -1,11 +1,11 @@
 div.warning::before {
     position: absolute;
-    content: "I'm already in this story";
+    content: "A Richard already exists in this story";
     background-color: yellow;
     top: -1.3rem;   
 }
 
-input.warning {
+input.warning{
     background-color: rgb(253, 4, 4);
     color: white;
 }

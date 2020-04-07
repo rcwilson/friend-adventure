@@ -5,8 +5,8 @@ export default function Story1A(props) {
     
     return (
         <>
-        <h2>A Case for Coffee</h2>
         <div className="game-story">
+        <h2>A Case for Coffee</h2>
             <p>
                 "Let's get coffee," you say with complete confidence. Richard's face switches to relief.
             </p>

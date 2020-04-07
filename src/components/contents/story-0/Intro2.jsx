@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Beginning(props) {
+export default function Intro2(props) {
 
     return (
         <>
