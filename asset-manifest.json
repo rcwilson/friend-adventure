@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/friend-adventure/static/css/main.18e0157e.chunk.css",
-    "main.js": "/friend-adventure/static/js/main.722e0210.chunk.js",
-    "main.js.map": "/friend-adventure/static/js/main.722e0210.chunk.js.map",
+    "main.css": "/friend-adventure/static/css/main.9f7010b8.chunk.css",
+    "main.js": "/friend-adventure/static/js/main.db22a6b9.chunk.js",
+    "main.js.map": "/friend-adventure/static/js/main.db22a6b9.chunk.js.map",
     "runtime-main.js": "/friend-adventure/static/js/runtime-main.f77230d8.js",
     "runtime-main.js.map": "/friend-adventure/static/js/runtime-main.f77230d8.js.map",
     "static/js/2.e7eb1023.chunk.js": "/friend-adventure/static/js/2.e7eb1023.chunk.js",
     "static/js/2.e7eb1023.chunk.js.map": "/friend-adventure/static/js/2.e7eb1023.chunk.js.map",
     "index.html": "/friend-adventure/index.html",
-    "precache-manifest.c695b292d949e331df4b576082f2c276.js": "/friend-adventure/precache-manifest.c695b292d949e331df4b576082f2c276.js",
+    "precache-manifest.84b2db025bf4811962b42236b64a0b38.js": "/friend-adventure/precache-manifest.84b2db025bf4811962b42236b64a0b38.js",
     "service-worker.js": "/friend-adventure/service-worker.js",
-    "static/css/main.18e0157e.chunk.css.map": "/friend-adventure/static/css/main.18e0157e.chunk.css.map",
+    "static/css/main.9f7010b8.chunk.css.map": "/friend-adventure/static/css/main.9f7010b8.chunk.css.map",
     "static/js/2.e7eb1023.chunk.js.LICENSE": "/friend-adventure/static/js/2.e7eb1023.chunk.js.LICENSE",
     "static/media/Adventure.css": "/friend-adventure/static/media/paper_fibers.d1121140.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f77230d8.js",
     "static/js/2.e7eb1023.chunk.js",
-    "static/css/main.18e0157e.chunk.css",
-    "static/js/main.722e0210.chunk.js"
+    "static/css/main.9f7010b8.chunk.css",
+    "static/js/main.db22a6b9.chunk.js"
   ]
 }

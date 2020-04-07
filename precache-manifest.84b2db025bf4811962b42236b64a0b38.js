@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10e5d13dd37b14e44b0c7b2f8c17215b",
+    "revision": "c037e200b8977e1f1f6a4ede9fa765b7",
     "url": "/friend-adventure/index.html"
   },
   {
-    "revision": "82c77fc465dc76efd820",
-    "url": "/friend-adventure/static/css/main.18e0157e.chunk.css"
+    "revision": "deb73878de2f510ab09b",
+    "url": "/friend-adventure/static/css/main.9f7010b8.chunk.css"
   },
   {
     "revision": "94619ef4c51d9659e255",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/friend-adventure/static/js/2.e7eb1023.chunk.js.LICENSE"
   },
   {
-    "revision": "82c77fc465dc76efd820",
-    "url": "/friend-adventure/static/js/main.722e0210.chunk.js"
+    "revision": "deb73878de2f510ab09b",
+    "url": "/friend-adventure/static/js/main.db22a6b9.chunk.js"
   },
   {
     "revision": "bb12dd9da1e585c7fc97",
